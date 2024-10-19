@@ -25,9 +25,10 @@ s = input("Enter a string: ")
 for word in s.split():
     print(word[::-1],end= " ")
 """
-
+"""
 str1 = input("Enter a string: ")
 index = -1
 while index >= -(len(str1)):
     print("subscript[",index,"] : " + str1[index])
     index += -1
+    """
