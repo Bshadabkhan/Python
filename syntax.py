@@ -16,7 +16,9 @@ else:
 greeting = 'Hello'
 name = 'michael'
 #message = greeting + ', ' + name + '. welcome!'
-message = '{}, {}. Welcome!'.format(greeting, name)
-print(message)
+#message = f'{greeting}, {name.upper()}. Welcome!' # f string 
 
+# print(dir(name)) # string names
+
+# print(help(str)) # all commands help
 
